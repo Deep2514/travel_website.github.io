@@ -1,0 +1,382 @@
+/*home css starts*/
+body{
+	background-image: url("images/home.jpg");
+	background-color: lavender;
+	background-repeat: no-repeat;
+	background-size: auto;
+}
+header{
+	overflow: hidden;
+	position: fixed;
+	padding: 5px 10px;
+	height: 70px;
+	width: 1230px;
+}
+li{
+	float: left;
+	display: inline-block;
+}
+li a{
+     float: left;
+     color: black;
+     text-align: center;
+     padding: 12px 15px;
+     text-decoration: none;
+     font-size: 15px;
+     line-height: 20px;
+     border-radius: 4px;
+
+    
+}
+.img{
+	padding-right: 250px;
+	
+
+}
+li a:hover {
+	background-color: #A569BD ;
+	color: white;
+}
+form{
+	text-align: right;
+}
+form input[type="text" i] {
+    padding: 8px;
+    width: 240px;
+    background-color: transparent;
+    color: white;
+    border:double;
+    border-color: purple;
+    border-radius: 50px;
+
+}
+form button{
+
+	float: right;
+  padding: 1px;
+  margin-top: 2px;
+  margin-right: 16px;
+  background: #ddd;
+  font-size: 10px;
+  border: none;
+  cursor: pointer;
+  width: 50px;
+  height: 30px;
+  background-color:#A569BD;
+  color: white;
+  border-radius: 50px;
+  border:ridge;
+}
+::-webkit-input-placeholder {
+    color:white;
+}
+
+::-moz-placeholder {
+    color:white;
+}
+
+::-ms-placeholder {
+    color:white;
+}
+
+::placeholder {
+    color:white;
+}
+.home .p1{
+	
+	text-align: center;
+	color: white;
+    font-family: t, Helvetica, sans-serif;
+    
+}
+/*home css end*/
+
+/*trips css starts*/
+.trips{
+	margin-top: 200px;
+	color: black;
+	position: all;
+	height: 1300px;
+	width: 1250px;
+	background-repeat: no-repeat;
+}
+
+.div1{
+	
+}
+.trips .heading{
+
+	padding-top: 80px;
+	font-size: 50px;
+	text-align: center;
+	margin-bottom: 20px;
+}
+.trips p{
+	padding: .5px 0 10px 0;
+	font-size: 20px;
+	text-align: center;
+	margin: 5px;
+	color: black;
+}
+.trips .box-container{
+    display: grid;
+    
+
+}
+
+
+.trips .box-container .box .img1{
+	float: left;
+	display: inline-block;
+	padding: 30px;
+	padding-bottom: 0;
+	text-align: center;
+	font-size: 30px;
+	margin: 10px;
+	background-color: #b3b3ff;
+}
+.trips .box-container .box .img1:hover{
+	background-image: linear-gradient(to left,#A569BD,#ffb380,pink) ;
+	color: white;
+}
+
+.trips .box-container .box .img1 button{
+	background-color: pink;
+	padding: 0 0 0 0;
+	border:none;
+}
+
+
+
+/*trips css end*/
+
+/*hotels css starts*/
+
+.hotels{
+	
+	
+	height: 1350px;
+	width: 1250px;
+    color: white;
+    padding: 5PX;
+    background-repeat: no-repeat;
+    position: all;
+}
+.hotels .heading1{
+	padding-top: 50px;
+	font-size: 50px;
+	text-align: center;
+	color: #ff4da6;
+	margin-bottom: 10px;
+
+}
+
+.hotels p{
+	font-size: 20px;
+	text-align: center;
+	padding-top: .5px;
+	color: black;
+}
+.hotels .box-container1{
+	display: grid;
+	background-color: #d9b3ff;
+}
+.hotels .box-container1 .hotelbox {
+	float: left;
+}
+.hotels .box-container1 .hotelbox .image2{
+	float: left;
+	display: inline-block;
+	padding: 20px;
+	text-align: center;
+	font-size: 30px;
+	margin: 30px;
+	background-color: pink;
+	width: 200px;
+   color: lavender;
+}
+.hotels .box-container1 .hotelbox .image2 .head{
+	
+}
+.hotels .box-container1 .hotelbox .image2 button{
+	background-color: #ffb380;
+	padding: 0 0 0 0;
+	border:none;
+	
+}
+.hotels .box-container1 .hotelbox .image2 h6{
+	margin: 5px 5px 20px 5px;
+}
+.hotels .box-container1 .hotelbox .image2:hover{
+	background-image: linear-gradient(to left,#A569BD,#ffb380,pink) ;
+	color: white;
+}
+
+/*review css start*/
+
+.review{
+	/*margin-top: 200px;*/
+	color: black;
+	position: all;
+	height: 1300px;
+	width: 1250px;
+	background-repeat: no-repeat;
+    }
+.review .header{
+	padding-top: 100px;
+	font-size: 50px;
+	text-align: center;
+	color: #A569BD;
+	margin-bottom: 10px;
+}
+
+.review p{
+	font-size: 20px;
+	text-align: center;
+	padding-top: .5px;
+	color: black;
+}
+
+.review .box-container2{
+    }
+
+.review .box-container2 .reviewbox .img3{
+	float: left;
+	display: inline-block;
+	padding: 20px;
+	text-align: center;
+	font-size: 30px;
+	margin: 50px;
+	margin-bottom: 30px;
+	background-color: #ffb380;
+	width: 400px;
+   color: lavender;
+   
+}
+
+.review .box-container2 .reviewbox .checked{
+  color: purple;
+}
+
+.review .box-container2 .reviewbox .img3:hover{
+	background-color: #ffffb3;
+}
+/*review css end*/
+
+/*about us css start*/
+.about{
+	color: black;
+	position: all;
+	height: 700px;
+	width: 1250px;
+	background-repeat: no-repeat;
+}
+
+.about .header1{
+	padding-top: 100px;
+	font-size: 50px;
+	text-align: center;
+	color: #A569BD;
+	margin-bottom: 10px;
+}
+
+.about p{
+	text-align: center;
+	font-size: 30px;
+}
+.about .box-container3 .aboutbox .img4{
+	float: left;
+	display: inline-block;
+	padding: 10px;
+	text-align: center;
+	font-size: 30px;
+	margin: 20px;
+	margin-bottom: 30px;
+	border-style: double;
+	border: 5px solid #555;
+	width: 400px;
+   color: lavender;
+}
+.about .box-container3 .aboutbox .p2{
+	float: left;
+	display: inline-block;
+	padding: 20px;
+	text-align: center;
+	font-size: 25px;
+	margin: 20px;
+	margin-bottom: 30px;
+	background-color: #e6ffff;
+	width: 600px;
+   color: black;
+}
+/*about us css end*/
+
+/*contact us css start*/
+
+.contact{
+	color: black;
+	position: all;
+	height: 700px;
+	width: 1250px;
+	background-repeat: no-repeat;
+}
+
+.contact .header3{
+	padding-top: 100px;
+	font-size: 50px;
+	text-align: center;
+	color: #A569BD;
+	margin-bottom: 10px;
+}
+
+.contact p{
+	text-align: center;
+	font-size: 30px;
+}
+.contact .box-container4 .contactbox .img4{
+	float: left;
+	display: inline-block;
+	padding: 10px;
+	text-align: center;
+	font-size: 30px;
+	margin: 20px;
+	margin-bottom: 30px;
+	border-style: double;
+	border: 5px solid #555;
+	width: 400px;
+   color: lavender;
+}
+.contact .box-container4 .contactbox .form{
+	float: left;
+	display: inline-block;
+	padding: 20px;
+	text-align: center;
+	font-size: 25px;
+	margin: 20px;
+	margin-bottom: 30px;
+	background-color: pink;
+	width: 500px;
+
+   color: black;
+}
+
+.contact .box-container4 .contactbox .form .input{
+	padding: 8px;
+    width: 200px;
+    background-color: transparent;
+    color: black;
+    border:double;
+    border-color: purple;
+    border-radius: 50px;
+}
+
+.contact .box-container4 .contactbox .form textarea{
+    vertical-align: middle; 
+    width: 440px;
+    height: 50px;
+    background-color: pink; 
+    border:double;
+    border-color: purple;
+    border-radius: 50px;
+
+}
